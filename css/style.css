@@ -1,0 +1,265 @@
+
+
+
+
+        html{
+        scroll-behavior: smooth;
+
+
+
+        }
+
+
+         body{   
+         background-image: url(../img/opcao.jpg);
+         background-repeat: round;
+         font-family: 'Parisienne', cursive;
+         font-family: 'Courgette', cursive;
+ 		font-family: 'Parisienne', cursive;
+
+
+	     }
+	      header, footer{
+	     background-color: rgba(253,245,230);
+	     padding: 1%;
+	     font-family: 'Courgette', cursive;
+		 font-family: 'Parisienne', cursive;
+		 position: relative;
+		 display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 font-size: 1.5em;
+		font-weight: bolder;
+	    
+
+	    }
+
+	      .menu-opcoes{
+	     text-align: center;
+
+
+	     }
+	     .fixo{
+	    position: fixed;
+		top: 0%;
+		right: 0%;
+		left: 0%;
+		z-index: 1030;
+
+	     }
+	      .ajustes{
+	    line-height: 1;
+	    text-align: center;
+
+
+	    }
+	    .ajustes li:hover{
+	    background-color:#DCDCDC;
+	    
+
+
+	    }
+	    .container{
+	    width: 80%;
+	    margin-left: auto;
+	    margin-right: auto;
+	    position: relative;
+
+
+
+
+	    }
+
+	    .testeri{
+	    float: left;
+
+
+	    }
+	    .testepa{
+	    margin-left: 25%;
+
+
+
+	    }
+
+	     /*tela menor que 599px */	
+	      }
+	@media screen and (max-width: 599px){
+			.container{
+			margin-top:65%;			
+		}
+		}
+		/*tela maior que 600px */	
+	@media screen and (min-width:600px){
+			.container{
+			margin-top:40%;				
+		}
+		}
+
+		/*telas maiores que 768px */
+	@media screen and (min-width:768px) {
+			.container{
+			margin-top:20%;	}
+
+		header{
+			 background-color: rgba(253,245,230);
+			 flex-direction: row;
+			 position: relative;
+			 height: 200px;
+
+	        }
+
+	       .menu-opcoes{
+	        	position: absolute;
+	        	right: 5%;
+	        	top: 45%;
+
+	        }
+
+	        .menu-opcoes ul li{
+	        	display: inline;
+	        	margin-left: 10px;
+
+
+	        }
+
+	        .imglogo{
+	        	position: absolute;
+	        	top: 70px;
+	        	left: 5%;
+	        	
+
+
+
+	        }
+
+		
+
+		}
+
+
+
+		
+
+
+	     
+	    
+
+	   
+	    h1{
+	    font-size: 2em;
+
+
+	    }
+	    h2{
+	    font-size: 1.5em;
+
+
+	    }
+		.titulos{
+		text-align: center;
+	     color:	#363636;
+		 font-weight: bolder; 
+		 line-height: 2;
+
+
+		}
+		p{
+		color: #363636;
+	    font-weight: bolder; 
+	    font-size: 1.2em;
+	    text-align: justify;
+	    margin-top: 2%;
+	    margin-bottom: 2%;
+	    
+		
+
+
+
+		}
+	
+		.listastexto{
+		color: #363636;
+		font-weight: bolder;
+		margin-top: 1%;
+		margin-bottom: 1%;
+		font-size: 1em;
+
+
+
+		}
+		figure{
+		text-align: center;
+				
+
+
+		}
+		.imgtexto{
+		border: 5px solid #4F4F4F;
+		width: 40%;
+
+
+		}
+		.imglogo{
+
+
+		}
+		
+		
+
+		a:link {
+ 		color: #4F4F4F;
+ 		background-color: transparent;
+		text-decoration: none;
+		}
+
+		a:visited {
+		color: #4F4F4F;
+ 		background-color: transparent;
+  		text-decoration: none;
+		}
+
+		a:hover {
+ 		color: red;
+ 		background-color: transparent;
+ 		text-decoration: underline;
+		}
+
+		a:active {
+ 	    color: blue;
+	    background-color: transparent;
+  		text-decoration: underline;
+		}
+		table{
+	   border-collapse: collapse;
+	   width: 80%;
+	   color: #363636; 
+	   font-size: 1.2em;
+	   margin-right: auto;
+	   margin-left: auto;
+	   
+       
+
+
+
+		}
+		td, th{
+		border: 5px solid #A9A9A9;
+		padding: 2%;
+		
+
+
+		}
+
+
+
+	  tr:nth-child(even) {
+      background-color: #FDF5E6;
+		}
+
+
+	
+/* quando a tela for maior que 600px */
+ @media screen and (min-width: 600px)  {
+
+ }
